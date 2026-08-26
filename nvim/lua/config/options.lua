@@ -16,6 +16,7 @@ o.listchars = {
   -- eol = "↴", -- end-of-line marker
   nbsp = "␣", -- non-breaking spaces
 }
+o.winborder = "rounded"
 
 -- input
 o.mouse = "a" -- enable mouse support
@@ -43,7 +44,7 @@ o.splitright = true -- vertical split to right
 o.splitbelow = true -- horizontal split below
 
 -- timing
-o.updatetime = 300 -- faster updates
+o.updatetime = 100 -- faster updates
 o.timeoutlen = 300 -- key timeout
 
 -- files
